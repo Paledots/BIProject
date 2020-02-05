@@ -29,7 +29,7 @@ To get three files (.map, .haps / .hap, .sample) you need a vcf file with the or
   
   `M`
       
-  where filename.vcf is the source file with all genotypes, N is the number of sites in file, M is the number of genotypes n file. When the program runs, the asmc.haps file will be created in the current folder
+  where filename.vcf is the source file with all genotypes, N is the number of sites in file, M is the number of genotypes in file. When the program runs, the asmc.haps file will be created in the current folder
       
 *  Constructing .map file:
 
@@ -47,7 +47,7 @@ To get three files (.map, .haps / .hap, .sample) you need a vcf file with the or
 
    `M`
       
-   where M is the number of genotypes. When the program runs, the asmc.sample file will be created in the current folder
+   where M is the number of genotypes in file .map or .hap/.haps. When the program runs, the asmc.sample file will be created in the current folder
  
 
 Scripting requires python version at least 3.6
