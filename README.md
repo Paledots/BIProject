@@ -15,7 +15,7 @@ The home repository for a project can be found here.
 
 Running scripts
 ---
-To run the ASMC method, the instruction can be found here_____.
+To run the ASMC method, the instruction can be found [here](https://github.com/pierpal/ASMC).
 
 To get three files (.map, .haps / .hap, .sample) you need a vcf file with the original genotypes. To convert .vcf files to three files you need to do:
 
@@ -37,7 +37,7 @@ To get three files (.map, .haps / .hap, .sample) you need a vcf file with the or
 
 Scripting requires python version at least 3.6
 
-Source data of genotypes: project 1000genomes
+Source data of genotypes: [1000genomes project](https://www.internationalgenome.org/data#download),  [.map files](https://github.com/joepickrell/1000-genomes-genetic-maps)
 
-An article describing the application of Markov covert chains and the ASMC approach: li dubrin
+An article describing the application of Hidden Markov Model and the ASMC approach can be found [here](https://www.nature.com/articles/s41588-018-0177-x)
 
