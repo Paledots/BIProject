@@ -20,19 +20,28 @@ To run the ASMC method, the instruction can be found [here](https://github.com/p
 To get three files (.map, .haps / .hap, .sample) you need a vcf file with the original genotypes. To convert .vcf files to three files you need to do:
 
 * python3 ./vcftoHap.py
+
   filename.vcf
+  
+  N
+  
+  M
       
-  where filename.vcf is the source file with all genotypes, when the program runs, the asmc.haps file will be created in the current folder
+  where filename.vcf is the source file with all genotypes, N is the number of sites in file, M is the number of genotypes n file. When the program runs, the asmc.haps file will be created in the current folder
       
 *  python3 ./hapToMap.py
-   filename.vcf
-      
-   where filename.haps / filename.hap is the .hap / haps file with all genotypes, when the program runs, the asmc.map file will be created in the current folder
-      
-*  python3 ./getSample.py
+
+   filename.hap
+   
    N
       
-   where N is the number of all genotypes, when the program runs, the asmc.sample file will be created in the current folder
+   where filename.hap is the .hap/haps file with all genotypes, N is the number of sites in file. When the program runs, the asmc.map file will be created in the current folder
+      
+*  python3 ./getSample.py
+
+   M
+      
+   where M is the number of genotypes. When the program runs, the asmc.sample file will be created in the current folder
  
 
 Scripting requires python version at least 3.6
