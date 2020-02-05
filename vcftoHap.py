@@ -1,10 +1,12 @@
-filename = input()
+filename = input()  # name of .vcf file
+sites = int(input())  # number of sites
+gens = int(input())  # number of genotypes
 f = open(filename, 'r')
 k = 1
 str = ""
 
-for line in f:
-    if k == 10001:
+for line in f:    # site cycle
+    if k == sites+1:
         break
     print(k)
     list = line.split()
@@ -15,7 +17,7 @@ for line in f:
     str += " " + list[3]
     str += " " + list[4]
 
-    for i in range(9, 1009):
+    for i in range(9, gens):  # genotype cycle
         vector = list[i].split('|')
         if vector[0] != '1' and vector[0] != '0':
             vector[0] = '1'
