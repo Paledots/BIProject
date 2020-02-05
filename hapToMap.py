@@ -1,9 +1,10 @@
-filename = input()
+filename = input()  # name of .hap/.haps files
+sites = int(input())  # number of sites
 f = open(filename, 'r')
 k = 1
 strr = ""
 for line in f:
-    if k == 10001:
+    if k == sites+1:
         break
 
     list = line.split()
