@@ -11,11 +11,11 @@ Tasks:
 Description of the used methods
 ---
 The Ascertained Sequentially Markovian Coalescent is a method to efficiently estimate pairwise coalescence time along the genome. It can be run using SNP array or whole-genome sequencing (WGS) data.
-The home repository for a project can be found here.
+The home repository for a project can be found [here](https://github.com/pierpal/ASMC).
 
 Running scripts
 ---
-To run the ASMC method, the instruction can be found [here](https://github.com/pierpal/ASMC).
+To run the ASMC method, the instruction can be found [here](https://www.palamaralab.org/software/ASMC).
 
 To get three files (.map, .haps / .hap, .sample) you need a vcf file with the original genotypes. To convert .vcf files to three files you need to do:
 
